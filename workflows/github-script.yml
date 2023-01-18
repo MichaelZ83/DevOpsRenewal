@@ -1,0 +1,11 @@
+name: Learning Github Script
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: 
